@@ -1,8 +1,15 @@
 <h1 align="center">Guide on How to Order PCBs from JLCPCB</h1>
 
-This repository provides a detailed step-by-step guide using the Public Invention [MoonRatII](https://github.com/PubInv/moonrat) project and Kicad as an example on how to order printed circuit boards (PCBs) from JLCPCB, including file preparation, customization options, and checkout process.
+This repository provides a detailed step-by-step guide using the Public Invention [MoonRatII](https://github.com/PubInv/moonrat) project and [KiCad](https://www.kicad.org/) as an example on how to order printed circuit boards (PCBs) from JLCPCB, including file preparation, customization options, and checkout process.
 
 <img src="https://yt3.googleusercontent.com/mzNAZW4JBGk9HfqrtFrhxo2qW52ahd6rktd2CXyKYhaBUPKbE7r55NzvPytmrk-kvxshCn2HRw=s900-c-k-c0x00ffffff-no-rj" alt="JLCPCB Logo" width="100">
+
+### PCB Design Software:
+- [KiCad](https://www.kicad.org/) 
+- [Eagle](https://www.autodesk.com/products/eagle/overview)
+- [Altium Designer](https://www.altium.com/)
+- [EasyEDA](https://easyeda.com/)
+- [CircuitMaker](https://circuitmaker.com/)
 
 ## Table of Contents
 1. [Step 1: Prepare Your PCB Design Files](#step-1-prepare-your-pcb-design-files)
@@ -19,14 +26,7 @@ This repository provides a detailed step-by-step guide using the Public Inventio
 
 ---
 
-### PCB Design Tools:
-- [KiCad](https://www.kicad.org/) - ***I used Kicad for this demonstration.***
-- [Eagle](https://www.autodesk.com/products/eagle/overview)
-- [Altium Designer](https://www.altium.com/)
-- [EasyEDA](https://easyeda.com/)
-- [CircuitMaker](https://circuitmaker.com/)
-
-## Step 1: Prepare Your PCB Design Files in Kicad
+## Step 1: Prepare Your PCB Design Files in [KiCad](https://www.kicad.org/)
 
 To order from JLCPCB, you need **Gerber files** containing the PCB design information.
 
