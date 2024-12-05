@@ -1,5 +1,6 @@
 <h1 align="center">Guide on How to Order PCBs from JLCPCB</h1>
-This repository provides a detailed step-by-step guide on how to order printed circuit boards (PCBs) from JLCPCB, including file preparation, customization options, and checkout process.
+
+This repository provides a detailed step-by-step guide using the Public Invention [MoonRatII](https://github.com/PubInv/moonrat) project and Kicad as an example on how to order printed circuit boards (PCBs) from JLCPCB, including file preparation, customization options, and checkout process.
 
 <img src="https://yt3.googleusercontent.com/mzNAZW4JBGk9HfqrtFrhxo2qW52ahd6rktd2CXyKYhaBUPKbE7r55NzvPytmrk-kvxshCn2HRw=s900-c-k-c0x00ffffff-no-rj" alt="JLCPCB Logo" width="100">
 
@@ -17,9 +18,6 @@ This repository provides a detailed step-by-step guide on how to order printed c
 11. [Tips for a Successful Order](#tips-for-a-successful-order)
 
 ---
-## Step 1: Prepare Your PCB Design Files
-
-To order from JLCPCB, you need **Gerber files** containing the PCB design information.
 
 ### PCB Design Tools:
 - [KiCad](https://www.kicad.org/) - ***I used Kicad for this demonstration.***
@@ -28,35 +26,69 @@ To order from JLCPCB, you need **Gerber files** containing the PCB design inform
 - [EasyEDA](https://easyeda.com/)
 - [CircuitMaker](https://circuitmaker.com/)
 
-### Generating Gerber Files:
-1. Design your PCB in the software.
-2. Export or generate Gerber files, ensuring the following layers are included:
-   - Top and Bottom Copper
-   - Solder Mask
-   - Silkscreen
-   - Drill File (NC Drill)
-3. Compress all files into a `.zip` or `.rar` archive.
+## Step 1: Prepare Your PCB Design Files in Kicad
 
+To order from JLCPCB, you need **Gerber files** containing the PCB design information.
+
+1. **Complete Your PCB Design**: Ensure your design is fully completed in KiCad, including all schematics and PCB layout.
+2. **Run DRC (Design Rule Check)**: Before exporting, run a DRC to catch any errors that might affect the PCB manufacturing.
+file:///Users/melanielaporte/Desktop/Screenshot%202024-09-21%20at%209.44.41%E2%80%AFPM.png
+3. **Assign Footprints**: Confirm all components have appropriate footprints assigned.
+file:///Users/melanielaporte/Desktop/Screenshot%202024-09-21%20at%209.52.03%E2%80%AFPM.png
+file:///Users/melanielaporte/Desktop/Screenshot%202024-09-21%20at%208.23.27%E2%80%AFPM.png
+To create an order from JLCPCB, you will need 4 sets of files - Gerber, Drill, BOM, and Drill map.
+
+
+### Generate Gerbers Files
+1. In Kicad, go to `File > Plot` in the PCB layout tool.
+   - Choose **Gerber** as the plot format.
+   - Select the necessary layers:
+     - **F.Cu** (Front Copper)
+     - **B.Cu** (Back Copper)
+     - **F.Mask** (Front Solder Mask)
+     - **B.Mask** (Back Solder Mask)
+     - **F.SilkS** (Front Silkscreen)
+     - **B.SilkS** (Back Silkscreen)
+     - **Edge.Cuts** (Board outline)
+   - Select appropriate options for drill files, including through-hole and vias.
+   - Click `Plot` to generate Gerber files.
+   - Export the files
+  
 WILL ADD photo of Gerber File Generation in KiCad
 
-## Step 2: Got to the JLCPCB Website
-1. Go to [JLCPCB’s homepage](https://jlcpcb.com).
-2. Click **"Quote Now"** or **"PCB Prototype"**.
+### Export Drill Files
+   - After plotting, click on the **Generate Drill Files** button.
+   - Choose **Excellon** format, and make sure to include **PTH (Plated Through-Hole)** and **NPTH (Non-Plated Through-Hole)**.
+     
+### Zip the Gerber Files
+   - After generating all the Gerber files and drill files, zip them into a single compressed folder. Make sure all necessary layers are included in the zip file.
+
+### BOM file
+   -  ADD file creation directions
+
+### BOM file
+   -  ADD file creation directions
+
+## Go to the JLCPCB Website
+1. Visit JLCPCB**: Navigate to [JLCPCB’s website](https://jlcpcb.com/).
+2. **Register or Log In**: If you don’t have an account, create one. If you do, simply log in.
 
 ## Step 3: Upload Gerber Files
-1. Add your `.zip` or `.rar` file into the upload section or click "Upload Gerber File."
-2. Review the automatically generated PCB preview.
+1. On the JLCPCB homepage, click the **“Order Now”** button under the PCB manufacturing section.
+2. **Upload the ZIP File** containing your Gerber files.
+3. JLCPCB will automatically analyze the files and present you with a preview of your board.
 
-## Step 4: Customize PCB Specifications
-Choose the specifications for the project.
+## Step 4: Configure PCB Options
+1. Review the auto-generated preview to ensure it matches your design.
+2. Customize the PCB:
+   - **Dimensions**: This should be automatically detected from the Gerber files.
+   - **Layers**: Typically 2-layer or 4-layer, depending on your design.
+   - **Quantity**: Choose the number of PCBs you need.
+   - **Thickness**: Common options are 1.6mm, but you can choose different thicknesses depending on your needs.
+   - **Solder Mask Color**: Green is standard, but other colors are available.
+   - **Silkscreen Color**: White is typical.
+   - **Surface Finish**: Choose between HASL (Lead/Lead-Free) or ENIG (Gold).
 
-### Customize Options:
-1. **Base Material:** FR4 (default) or custom materials.
-2. **Layers:** 1 to 6 (or more if needed).
-3. **Thickness:** 1.6mm (standard) or other options.
-4. **Solder Mask Color:** Green, Blue, Red, Black, etc.
-5. **Surface Finish:** HASL or ENIG.
-6. **Copper Weight:** 1oz, 2oz, etc.
    
 WILL ADD Screenshot of PCB Customization Page
 
