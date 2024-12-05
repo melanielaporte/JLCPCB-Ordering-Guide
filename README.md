@@ -40,7 +40,8 @@ To create an order from JLCPCB, you will need 4 sets of files - Gerber, Drill, B
 
 
 ### Generate Gerbers Files
-1. In Kicad, go to `File > Plot` in the PCB layout tool.
+1. In KiCad, **Open PCB Layout Editor**.
+2. Go to `File > Plot` in the PCB layout tool.
    - Choose **Gerber** as the plot format.
    - Select the necessary layers:
      - **F.Cu** (Front Copper)
@@ -62,9 +63,6 @@ WILL ADD photo of Gerber File Generation in KiCad
      
 ### Zip the Gerber Files
    - After generating all the Gerber files and drill files, zip them into a single compressed folder. Make sure all necessary layers are included in the zip file.
-
-### BOM file
-   -  ADD file creation directions
 
 ### BOM file
    -  ADD file creation directions
