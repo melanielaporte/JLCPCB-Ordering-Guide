@@ -1,10 +1,6 @@
 <h1 align="center">Guide on How to Order PCBs from JLCPCB</h1>
 This repository provides a detailed step-by-step guide on how to order printed circuit boards (PCBs) from JLCPCB, including file preparation, customization options, and checkout process.
 
-# Comprehensive Guide: How to Order PCBs from JLCPCB
-
-This repository provides a detailed step-by-step guide on how to order printed circuit boards (PCBs) from JLCPCB, including file preparation, customization options, and checkout process. Ideal for beginners and professionals alike.
-
 <img src="https://yt3.googleusercontent.com/mzNAZW4JBGk9HfqrtFrhxo2qW52ahd6rktd2CXyKYhaBUPKbE7r55NzvPytmrk-kvxshCn2HRw=s900-c-k-c0x00ffffff-no-rj" alt="JLCPCB Logo" width="100">
 
 ## Table of Contents
