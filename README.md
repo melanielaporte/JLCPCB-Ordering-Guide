@@ -123,5 +123,5 @@ Feel free to contribute improvements to this guide by submitting pull requests o
 ## License
 This guide is licensed under the [MIT License](LICENSE).
 
-##Contact 
+## Contact 
 How to contact me: https://github.com/melanielaporte/ 
