@@ -37,7 +37,7 @@ To order from JLCPCB, you need **Gerber files** containing the PCB design inform
    - Drill File (NC Drill)
 3. Compress all files into a `.zip` or `.rar` archive.
 
-ADD photo of Gerber File Generation in KiCad
+WILL ADD photo of Gerber File Generation in KiCad
 
 ## Step 2: Got to the JLCPCB Website
 1. Go to [JLCPCB’s homepage](https://jlcpcb.com).
@@ -57,8 +57,8 @@ Choose the specifications for the project.
 4. **Solder Mask Color:** Green, Blue, Red, Black, etc.
 5. **Surface Finish:** HASL or ENIG.
 6. **Copper Weight:** 1oz, 2oz, etc.
-7. 
-ADD Screenshot of PCB Customization Page
+   
+WILL ADD Screenshot of PCB Customization Page
 
  > ## Optional Suggestion: Consider Ordering a Raw PCB in Addition to an Assembled PCB
  > - Raw PCBs are cheaper than fully assembled ones and useful for early-stage testing of layout, connectivity, and fit.
@@ -68,7 +68,7 @@ ADD Screenshot of PCB Customization Page
  > - If components are unavailable from the manufacturer, you can source and solder them yourself.
 
 
-ADD photo of raw board and Lee's double decker setup
+WILL ADD photo of raw board and Lee's double decker setup
 
 ## Step 5: Choose Quantity and Lead Time
 - Select **Quantity** (5, 10, etc.).
@@ -80,7 +80,7 @@ Optional, if assembly is needed:
 1. Select **SMT Assembly**.
 2. Upload BOM and Pick-and-Place files.
    
-ADD photo of SMT assembly process 
+WILL ADD photo of SMT assembly process 
 
 
 ## Step 7: Confirm Order and Checkout
@@ -94,8 +94,7 @@ ADD photo of SMT assembly process
 2. Select the shipping method (DHL, FedEx, etc.).
 
 
-## Step 9: Payment Options
-JLCPCB offered:
+## Step 9: Payment Options Offered
 - PayPal
 - Credit/Debit Cards
 - Wire Transfer
