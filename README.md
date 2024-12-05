@@ -4,24 +4,19 @@ This repository provides a detailed step-by-step guide on how to order printed c
 <img src="https://yt3.googleusercontent.com/mzNAZW4JBGk9HfqrtFrhxo2qW52ahd6rktd2CXyKYhaBUPKbE7r55NzvPytmrk-kvxshCn2HRw=s900-c-k-c0x00ffffff-no-rj" alt="JLCPCB Logo" width="100">
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Step 1: Prepare Your PCB Design Files](#step-1-prepare-your-pcb-design-files)
-3. [Step 2: Visit JLCPCB Website](#step-2-visit-jlcpcb-website)
-4. [Step 3: Upload Gerber Files](#step-3-upload-gerber-files)
-5. [Step 4: Customize PCB Specifications](#step-4-customize-pcb-specifications)
-6. [Step 5: Choose Quantity and Lead Time](#step-5-choose-quantity-and-lead-time)
-7. [Step 6: PCB Assembly (Optional)](#step-6-pcb-assembly-optional)
-8. [Step 7: Confirm Order and Checkout](#step-7-confirm-order-and-checkout)
-9. [Step 8: Enter Shipping Details](#step-8-enter-shipping-details)
-10. [Step 9: Payment Options](#step-9-payment-options)
-11. [Step 10: Track Your Order](#step-10-track-your-order)
-12. [Tips for a Successful Order](#tips-for-a-successful-order)
+1. [Step 1: Prepare Your PCB Design Files](#step-1-prepare-your-pcb-design-files)
+2. [Step 2: Visit JLCPCB Website](#step-2-visit-jlcpcb-website)
+3. [Step 3: Upload Gerber Files](#step-3-upload-gerber-files)
+4. [Step 4: Customize PCB Specifications](#step-4-customize-pcb-specifications)
+5. [Step 5: Choose Quantity and Lead Time](#step-5-choose-quantity-and-lead-time)
+6. [Step 6: PCB Assembly (Optional)](#step-6-pcb-assembly-optional)
+7. [Step 7: Confirm Order and Checkout](#step-7-confirm-order-and-checkout)
+8. [Step 8: Enter Shipping Details](#step-8-enter-shipping-details)
+9. [Step 9: Payment Options](#step-9-payment-options)
+10. [Step 10: Track Your Order](#step-10-track-your-order)
+11. [Tips for a Successful Order](#tips-for-a-successful-order)
 
 ---
-
-## Introduction
-[JLCPCB](https://jlcpcb.com) is one of the most popular PCB manufacturers, known for its affordable prices and high-quality production. This guide will help you order PCBs easily, whether you are a hobbyist or a professional.
-
 ## Step 1: Prepare Your PCB Design Files
 
 To order from JLCPCB, you need **Gerber files** containing the PCB design information.
