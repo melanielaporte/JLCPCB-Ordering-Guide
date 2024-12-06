@@ -38,7 +38,6 @@ file:///Users/melanielaporte/Desktop/Screenshot%202024-09-21%20at%209.52.03%E2%8
 file:///Users/melanielaporte/Desktop/Screenshot%202024-09-21%20at%208.23.27%E2%80%AFPM.png
 To create an order from JLCPCB, you will need 4 sets of files - Gerber, Drill, BOM, and Drill map.
 
-
 ### Generate Gerbers Files
 1. In KiCad, **Open PCB Layout Editor**.
 2. Go to `File > Plot` in the PCB layout tool.
@@ -58,18 +57,18 @@ To create an order from JLCPCB, you will need 4 sets of files - Gerber, Drill, B
 WILL ADD photo of Gerber File Generation in KiCad
 
 ### Export Drill Files
-   - After plotting, click on the **Generate Drill Files** button.
-   - Choose **Excellon** format, and make sure to include **PTH (Plated Through-Hole)** and **NPTH (Non-Plated Through-Hole)**.
+ - After plotting, click on the **Generate Drill Files** button.
+ - Choose **Excellon** format, and make sure to include **PTH (Plated Through-Hole)** and **NPTH (Non-Plated Through-Hole)**.
      
 ### Zip the Gerber Files
-   - After generating all the Gerber files and drill files, zip them into a single compressed folder. Make sure all necessary layers are included in the zip file.
+ - After generating all the Gerber files and drill files, zip them into a single compressed folder. Make sure all necessary layers are included in the zip file.
 
 ### BOM file
-   -  ADD file creation directions
+ - ADD file creation directions
 
-## Go to the JLCPCB Website
-1. Visit JLCPCB**: Navigate to [JLCPCB’s website](https://jlcpcb.com/).
-2. **Register or Log In**: If you don’t have an account, create one. If you do, simply log in.
+## Step 3 Go to the JLCPCB Website
+ - Navigate to [JLCPCB’s website](https://jlcpcb.com/).
+ - If you don’t have an account, create one. If you do, simply log in.
 
 ## Step 3: Upload Gerber Files
 1. On the JLCPCB homepage, click the **“Order Now”** button under the PCB manufacturing section.
