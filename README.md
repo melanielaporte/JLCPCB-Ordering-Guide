@@ -2,7 +2,7 @@
 
 This repository provides a detailed step-by-step guide using the Public Invention [MoonRatII](https://github.com/PubInv/moonrat) project and [KiCad](https://www.kicad.org/) as an example on how to order printed circuit boards (PCBs) from JLCPCB, including file preparation, customization options, and checkout process.
 
-<img src="https://yt3.googleusercontent.com/mzNAZW4JBGk9HfqrtFrhxo2qW52ahd6rktd2CXyKYhaBUPKbE7r55NzvPytmrk-kvxshCn2HRw=s900-c-k-c0x00ffffff-no-rj" alt="JLCPCB Logo" width="100">
+<img src="https://github.com/user-attachments/assets/5591ecac-7348-41bd-9327-7a14661e7d9b" alt="JLCPCB Logo" width="100">
 
 ### PCB Design Software:
 - [KiCad](https://www.kicad.org/) 
