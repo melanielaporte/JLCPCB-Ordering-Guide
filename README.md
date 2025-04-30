@@ -4,6 +4,25 @@ This repository provides a detailed step-by-step guide using the Public Inventio
 
 <img src="https://github.com/user-attachments/assets/5591ecac-7348-41bd-9327-7a14661e7d9b" alt="JLCPCB Logo" width="100">
 
+Is your feature request related to a problem? Please describe.
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+The PWA manufacturing process is two steps and other activities.
+
+- PCBWay and JLCPCB will fabricate a sub assembly.
+- Make and check Gerber and Drill files. JLCPCB
+- Make BOM / Parts List. JLCPCB
+- Make Placement Files. JLCPCB
+- Make and check Gerber and Drill files. PCBWay
+- Make BOM / Parts List. PCBWay
+- Make Placement Files. PCBWay
+- Place the following order JLCPCB
+- Order Balance of Parts
+- To the sub assembly additional parts must be ordered. USA.
+- Create and Update Documentation
+- Review the GPAD assembly notes (markdown documents) and duplicate and update as appropriate.
+
+
 ### PCB Design Software:
 - [KiCad](https://www.kicad.org/) 
 - [Eagle](https://www.autodesk.com/products/eagle/overview)
